@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        .box {
+            height: 70px;
+            width: 70px;
+            margin: 20px;
+            padding: 5px;
+            border: 2px solid black;
+            background-color: plum;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 1s ease-in;
+        }
+        
+        
+        #box1 {
+            background-color: lime;
+        }
+        #box1:hover {
+             transform: translate(50px);
+             background-color: rgb(246, 113, 11);
+            }
+        #box2 { 
+            background-color: blueviolet;
+        }
+       
+         #box2:hover {
+            transform: translate(50px, 50px);
+            background-color: rgb(0, 255, 234);
+        }
+         #box3 {
+            background-color: indianred;
+        }
+          #box3:hover { 
+            transform: translatex(50px);
+            background-color: blue;
+        }
+          #box4 {
+            background-color: rgb(231, 177, 18);
+        }
+           #box4:hover {
+             transform: translatey(50px);
+             background-color: rgb(255, 0, 123);
+            }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Translate</div>
+    <div id="box2" class="box">Translate x & y</div>
+    <div id="box3" class="box">x translate </div>
+    <div id="box4" class="box">y translet</div>
+    
+</body>
+</html>
